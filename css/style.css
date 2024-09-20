@@ -1,0 +1,207 @@
+/* FONT LINKS START */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Podkova:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Podkova:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Podkova:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* FONT LINK END */
+
+/* COMMON CSS START */
+ul,ol{
+    list-style: none;
+}
+.container{
+    margin: 0 auto;
+    width: 1280px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(94, 189, 70), transparent),
+    linear-gradient(to top left, rgb(221, 113, 80), transparent),
+    linear-gradient(to top right, rgb(224, 49, 58), transparent);
+}
+/* COMMON CSS END */
+
+/* Header Part Start */
+.menu_bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.menu{
+    display: flex;
+    gap: 48px;
+    margin-top: 10px;
+    align-items: baseline;
+}
+.menu ul{
+    display: flex;
+    gap: 48px;
+}
+.logo a{
+    font-size: 43px;
+    color: #000;
+    font-weight: 600;
+    font-family: "Anton", sans-serif;
+}
+.menu ul li a{
+    color: #000;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    transition: all linear .2s;
+}
+.menu ul li a:hover{
+    color: #FDBB57;
+}
+.menu .button{
+    color: #fff;
+    height: 52px;
+    width: 100px;
+    font-size: 24px;
+    background: #000;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 20px;
+    bottom: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    transition: all linear .2s;
+}
+.menu .button:hover{
+    background-color: #FDBB57;
+    color: #000;
+    border: #000;
+}  
+/* Header Part End */
+
+/* Title Part Start */
+.txt_button{
+    margin-top: 177px;
+    text-align: center;
+}
+.txt h1{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #000;
+}
+.txt p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #FDBB57;
+    font-family: "Inter", sans-serif;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.button a{
+    background: #FDBB57;
+    height: 60px;
+    width: 160px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    transition: all linear .2s;
+}
+.button a:hover{
+    color: black;
+    background: transparent;
+    border: 3px solid #FDBB57;
+}
+/* Title Part End */
+
+/* Banner Part Start */
+#banner img{
+    width: 1280px;
+    height: 640px;
+    margin-top: 114px;
+    border-radius: 20px;
+    margin-bottom: 120px;
+}
+/* Banner Part End */
+
+/* Introduce Part Start */
+.heading_txt h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 8px;
+}
+.heading_txt p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #FDBB57;
+    margin-bottom: 32px;
+}
+a .box{
+    height: 192px;
+    width: 405px;
+    background: transparent;
+    border-radius: 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+a .box .h_txt h2{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #000;
+    height: 30px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+a .box .dvimg img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 32px;
+}
+a .box .dvname h3{
+    margin-top: -50px ;
+    margin-left: 100px;
+    margin-bottom: 2px;
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+a .box .dvname p{
+    margin-left: 100px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+._box{
+    display: flex;
+    justify-content: space-between;
+}
+._box a:hover{
+    box-shadow: none;
+    background: #FDBB57;
+    border-radius: 12px;
+}
+._box a{
+    transition: all linear .4s;
+}
+._box{
+    margin-bottom: 120px;
+} 
+/* Introduce Part End */
+
+/* Footer Part Start */
+
+/* Footer Part End */
